@@ -1,5 +1,7 @@
 # Standalone Laravel Blade templating component
 
+[![Latest Stable Version](https://poser.pugx.org/chr15k/laravel-blade/v)](//packagist.org/packages/chr15k/laravel-blade) [![Latest Unstable Version](https://poser.pugx.org/chr15k/laravel-blade/v/unstable)](//packagist.org/packages/chr15k/laravel-blade) [![Total Downloads](https://poser.pugx.org/chr15k/laravel-blade/downloads)](//packagist.org/packages/chr15k/laravel-blade) [![License](https://poser.pugx.org/chr15k/laravel-blade/license)](//packagist.org/packages/chr15k/laravel-blade)
+
 This package allows you to use Laravel's simple yet powerful Blade templating engine as a standalone component.
 
 ## Installation
