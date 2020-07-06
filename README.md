@@ -13,23 +13,21 @@ composer require chr15k/laravel-blade
 ## Usage
 
 ```php
-<?php
-
-// Register The Auto Loader
-require __DIR__ . '/vendor/autoload.php';
-
-
 use Chr15k\Blade\Blade;
 
-$views = __DIR__ . '/views'; // Directory containing your blade files
-$cache = __DIR__ . '/cache'; // Directory for cached views
+$views = 'views'; // Directory containing your blade files
+$cache = 'cache'; // Directory for cached views
 
 $blade = new Blade($views, $cache);
 
-echo $blade->view()->make('test'); // (~/views/test.blade.php)
+// views/test.blade.php
+echo $blade
+    ->view()
+    ->make('test', ['foo' => 'bar']);
 ```
 
 ## Documentation
+You can use all the features of blade as per the documentation:
 https://laravel.com/docs/7.x/blade
 
 ## License

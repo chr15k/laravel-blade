@@ -2,7 +2,12 @@
     "name": "chr15k/laravel-blade",
     "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
     "homepage": "https://github.com/chr15k/laravel-blade",
-    "keywords": ["laravel", "blade"],
+    "keywords": [
+        "laravel",
+        "blade",
+        "engine",
+        "templates"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -11,11 +16,20 @@
         }
     ],
     "require": {
+        "php": "^7.2.5",
         "illuminate/view": "^7.18"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
     },
     "autoload": {
         "psr-4": {
             "Chr15k\\Blade\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chr15k\\Blade\\Test\\": "tests"
         }
     }
 }
