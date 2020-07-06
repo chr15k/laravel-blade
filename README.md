@@ -30,5 +30,12 @@ echo $blade
 You can use all the features of blade as per the documentation:
 https://laravel.com/docs/7.x/blade
 
+## Testing
+You can run the tests with:
+
+```
+vendor/bin/phpunit tests
+```
+
 ## License
 The MIT License (MIT). Please see [License File](https://github.com/chr15k/laravel-blade/blob/master/LICENSE.md) for more information.
