@@ -1,6 +1,5 @@
-# Standalone Blade templating
+# Standalone Laravel Blade templating component
 
-Love Blade templating?
 This package allows you to use Laravel's simple yet powerful Blade templating engine as a standalone component.
 
 ### Installation
@@ -19,13 +18,13 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Chr15k\Blade\Blade;
 
-$views = __DIR__ . '/views'; // Directory containing your views
-$cache = __DIR__ . '/cache'; // Directory for caching
+$views = __DIR__ . '/views'; // Directory containing your blade files
+$cache = __DIR__ . '/cache'; // Directory for cached views
 
 $blade = new Blade($views, $cache);
 
 echo $blade->view()->make('test'); // (~/views/test.blade.php)
 ```
 
-You can use all blade features as described in the Laravel documentation:
+Documentation:
 https://laravel.com/docs/7.x/blade
