@@ -1,0 +1,21 @@
+{
+    "name": "chr15k/laravel-blade",
+    "description": "Use the simple and yet powerful Laravel Blade templating engine as a standalone component.",
+    "homepage": "https://github.com/chr15k/laravel-blade",
+    "keywords": ["laravel", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Keller",
+            "email": "christhecoder85@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/view": "^7.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chr15k\\Blade\\": "src"
+        }
+    }
+}
