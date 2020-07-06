@@ -2,19 +2,20 @@
 
 This package allows you to use Laravel's simple yet powerful Blade templating engine as a standalone component.
 
-### Installation
+## Installation
 
 ```bash
 composer require chr15k/laravel-blade
 ```
 
-### Usage
+## Usage
 
 ```php
 <?php
 
 // Register The Auto Loader
 require __DIR__ . '/vendor/autoload.php';
+
 
 use Chr15k\Blade\Blade;
 
@@ -26,5 +27,8 @@ $blade = new Blade($views, $cache);
 echo $blade->view()->make('test'); // (~/views/test.blade.php)
 ```
 
-Documentation:
+## Documentation
 https://laravel.com/docs/7.x/blade
+
+## License
+The MIT License (MIT). Please see [License File](https://github.com/chr15k/laravel-blade/blob/master/LICENSE.md) for more information.
